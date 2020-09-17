@@ -12,6 +12,11 @@ Loan_ID, Gender, Married, Dependents, Education, Self_Employed, ApplicantIncome,
 1. Loan ID is dropped.
 2. Missing value analysis: Knn imputation (k=3)
 What I have done: First label encoding is done on categorical variables. Then -1 is converted to nan values. K=3 is taken. Since mean is considered, rounding is done. The variables are converted back to object type.
+
+## EDA:
+https://public.tableau.com/profile/subham.banerjee#!/vizhome/Loan_Prediction_EDA/CreditHistory
+(The file can also be downloaded from the github repository)
+
 3. Correlation is checked between the continuous variable.
 4. Numerical variables are standardised.
 5. Then data frame is converted to array, to make sure numerical values are going into the models.
