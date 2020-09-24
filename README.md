@@ -26,4 +26,4 @@ GBM and XGB: 'learning_rate': [0.01,0.05,0.1],'max_depth': [3,4,5],'n_estimators
 7. Cross validation: 
 We predict accuracy, recall for all the models.
 We did k fold cv where k=5 (5 iterations, in each one part is considered as test and others are used to train). Advantages: all points are considered as both train and test simultaneously. Disadvantages: time consuming.
-XGboost gives 96.2% recall which is the ultimate aim of our project to predict people eligible for loan amount correctly.
+XGboost gives 86.86% f1 score.
