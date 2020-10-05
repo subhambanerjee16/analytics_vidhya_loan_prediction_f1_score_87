@@ -1,4 +1,4 @@
-# analytics_vidhya_loan_prediction_recall_96.2_percent
+# analytics_vidhya_loan_prediction
 
 Dream Housing Finance company deals in all kinds of home loans. They have presence across all urban, semi urban, and rural areas. Customer first applies for home loan and after that company validates the customer eligibility for loan.
 Company wants to automate the loan eligibility process (real time) based on customer detail provided while filling online application form. These details are Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History, and others. To automate this process, they have provided a dataset to identify the customers segments that are eligible for loan amount so that they can specifically target these customers.
@@ -20,10 +20,8 @@ https://public.tableau.com/profile/subham.banerjee#!/vizhome/Loan_Prediction_EDA
 3. Correlation is checked between the continuous variable.
 4. Numerical variables are standardised.
 5. Then data frame is converted to array, to make sure numerical values are going into the models.
-6. RF, GBM, XGB and Naive Bayes used.
-RF n estimator is taken as 500 and criterion is taken as gini and entropy for grid search.
-GBM and XGB: 'learning_rate': [0.01,0.05,0.1],'max_depth': [3,4,5],'n_estimators': [500]
+6. DT (max depth 1 to 20), KNN (k value 1 to 20) and Naive Bayes used.
 7. Cross validation: 
 We predict accuracy, recall for all the models.
 We did k fold cv where k=5 (5 iterations, in each one part is considered as test and others are used to train). Advantages: all points are considered as both train and test simultaneously. Disadvantages: time consuming.
-XGboost gives 86.86% f1 score.
+DT gives 87% f1 score.
