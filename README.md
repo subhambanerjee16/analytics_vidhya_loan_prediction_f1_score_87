@@ -14,7 +14,7 @@ Loan_ID, Gender, Married, Dependents, Education, Self_Employed, ApplicantIncome,
 What I have done: First label encoding is done on categorical variables. Then -1 is converted to nan values. K=3 is taken. Since mean is considered, rounding is done. The variables are converted back to object type.
 
 ## EDA:
-https://public.tableau.com/profile/subham.banerjee#!/vizhome/Loan_Prediction_EDA/CreditHistory
+https://public.tableau.com/views/Loan_Prediction_EDA/loan_eligibilityloan_amount?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
 (The file can also be downloaded from the github repository)
 
 3. Correlation is checked between the continuous variable.
